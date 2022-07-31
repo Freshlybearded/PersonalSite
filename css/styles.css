@@ -22,6 +22,12 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     color: #EEEEEE;
 }
+hr {
+    border: dotted #EEEEEE 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 75px auto;
+}
 .top-container {
     background-color: #ea9215;
     position: relative;
@@ -36,6 +42,8 @@ h3 {
 }
 .bottom-container {
     background-color: #ea9215;
+    padding-bottom: 10px;
+    padding-top: 25px;
     
 }
 .skill-row {
@@ -69,12 +77,25 @@ h3 {
     left: 35%;
     bottom: 0;
 }
-hr {
-    width: 65%;
+.footer-link {
+    margin-left: 10px;
+    color: #303841;
+    font-weight: bold;
+    text-decoration: none;
 }
-.map-image {
-    float: left;
-}
-.videogame-image {
-    float: left;
-}
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3A4750;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #303841;
+    text-decoration: none;
+  }
